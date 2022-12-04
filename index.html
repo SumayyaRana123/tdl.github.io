@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+</head>
+<body>
+    <div id="container">
+    <header>
+        <div id="banner">
+            <h1>Todo List</h1>
+            <form id="search-tasks">
+                <input type="text" placeholder="Search tasks..." />
+           </form>
+        </div>
+    </header>
+    <div id="task-list">
+    <ul>
+        <li><span class="check"><input type="checkbox"></span>
+        <span class="name">Javascript Playlist </span>
+        <span class="delete"> <i class="fa fa-trash"></i></span>
+         <!-- <span class="delete"> <i class="fa fa-trash" style="font-size:1.2em;"></i></span> -->
+        </li>
+        <li><span class="check"><input type="checkbox"></span>
+            <span class="name">DOM Playlist </span>
+             <span class="delete"> <i class="fa fa-trash"></i></span>
+            </li>    </ul> 
+    </div id="add-container">
+    <form id="add-task">
+        <input type="text" placeholder="New task..." />
+        <button class="btn-add"><i class="fa  fa-plus" style="font-size:1.5em;"></i></button>
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
