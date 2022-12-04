@@ -116,7 +116,7 @@ input[type="checkbox"]
 @media screen and (max-width:500px)
 {
     body{
-        background-color: yellow;
+       
     }
     #container{
         width:90%;
